@@ -53,7 +53,7 @@ The assembly process consists of:
 Because every Modulino board contains its own electronics, no breadboards or additional wiring are required, resulting in a clean and highly modular hardware implementation.
 
 <p align="center">
-<img src="../screenshots/montaje-completo.png" width="250">
+<img src="../screenshots/montaje-completo.png" width="300">
 </p>
 
 The modular assembly greatly simplifies installation while allowing new peripherals to be incorporated without redesigning the existing hardware.
