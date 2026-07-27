@@ -26,10 +26,6 @@ This project presents the design and implementation of an embedded monitoring an
 
 The prototype combines embedded programming, modular hardware integration, real-time monitoring, and intelligent alarm management. Temperature and distance measurements are processed by an **Arduino UNO R4**, which controls visual and acoustic warning devices whenever predefined safety thresholds are exceeded.
 
-<p align="center">
-<img src="screenshots/montaje-completo.png" width="300">
-</p>
-
 The project demonstrates the development of a scalable embedded platform suitable for embedded monitoring and IoT-oriented applications.
 
 ---
