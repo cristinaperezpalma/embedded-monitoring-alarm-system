@@ -27,7 +27,7 @@ This project presents the design and implementation of an embedded monitoring an
 The prototype combines embedded programming, modular hardware integration, real-time monitoring, and intelligent alarm management. Temperature and distance measurements are processed by an **Arduino UNO R4**, which controls visual and acoustic warning devices whenever predefined safety thresholds are exceeded.
 
 <p align="center">
-<img src="screenshots/montaje-completo.png" width="700">
+<img src="screenshots/montaje-completo.png" width="350">
 </p>
 
 The project demonstrates the development of a scalable embedded system suitable for monitoring and IoT-oriented applications.
@@ -86,7 +86,7 @@ The embedded system follows a centralized **master–slave architecture** in whi
 This modular approach minimizes wiring, simplifies maintenance, and allows new peripherals to be incorporated without redesigning the hardware architecture.
 
 <p align="center">
-<img src="screenshots/arquitectura-fisica.png" width="700">
+<img src="screenshots/arquitectura-fisica.png" width="350">
 </p>
 
 ---
@@ -137,7 +137,7 @@ Detailed technical documentation is available inside the **docs** directory.
 Complete physical implementation of the monitoring platform based on the Arduino UNO R4 and Modulino ecosystem.
 
 <p align="center">
-<img src="screenshots/montaje-completo.png" width="650">
+<img src="screenshots/montaje-completo.png" width="350">
 </p>
 
 ---
@@ -147,7 +147,7 @@ Complete physical implementation of the monitoring platform based on the Arduino
 Master–slave organization of the embedded platform using a shared I²C communication bus.
 
 <p align="center">
-<img src="screenshots/arquitectura-fisica.png" width="650">
+<img src="screenshots/arquitectura-fisica.png" width="350">
 </p>
 
 ---
@@ -157,7 +157,7 @@ Master–slave organization of the embedded platform using a shared I²C communi
 Shared SDA and SCL lines allow every peripheral to communicate with the Arduino UNO R4 while minimizing wiring complexity.
 
 <p align="center">
-<img src="screenshots/esquema-bus-i2c.png" width="650">
+<img src="screenshots/esquema-bus-i2c.png" width="350">
 </p>
 
 ---
