@@ -17,7 +17,7 @@ The architecture is divided into three functional layers:
 - **Output Modules:** Modulino LED Bar and Buzzer, responsible for visual and acoustic alarm generation.
 
 <p align="center">
-<img src="../screenshots/arquitectura-fisica.png" width="300">
+<img src="../screenshots/arquitectura-fisica.png" width="250">
 </p>
 
 The modular organization clearly separates sensing, processing, and actuation tasks, resulting in a scalable embedded architecture suitable for monitoring applications.
@@ -36,7 +36,7 @@ Unlike traditional Arduino projects where each sensor occupies independent GPIO 
 Each module has its own I²C address, allowing the Arduino UNO R4 to communicate with every peripheral independently without hardware conflicts.
 
 <p align="center">
-<img src="../screenshots/esquema-bus-i2c.png" width="300">
+<img src="../screenshots/esquema-bus-i2c.png" width="250">
 </p>
 
 This architecture significantly reduces cable complexity while improving scalability and maintenance.
@@ -44,7 +44,7 @@ This architecture significantly reduces cable complexity while improving scalabi
 The modules are connected using a **daisy-chain topology**, allowing new peripherals to be incorporated into the system without modifying the existing wiring.
 
 <p align="center">
-<img src="../screenshots/ejemplo-modulo.png" width="300">
+<img src="../screenshots/ejemplo-modulo.png" width="250">
 </p>
 
 The use of a common communication bus makes the platform highly modular and well suited for rapid prototyping of embedded systems.
