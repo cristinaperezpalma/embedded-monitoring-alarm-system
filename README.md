@@ -1,6 +1,6 @@
 # Embedded Monitoring and Alarm System
 
-A modular embedded monitoring system developed using **Arduino UNO R4**, **I²C communication**, and **Modulino** hardware to detect environmental hazards through temperature and proximity sensing while providing real-time visual and acoustic alerts.
+A modular embedded monitoring system developed using **Arduino UNO R4**, **I²C communication**, and the **Modulino** ecosystem to detect environmental hazards through temperature and proximity sensing while providing real-time visual and acoustic alerts.
 
 ---
 
@@ -27,10 +27,10 @@ This project presents the design and implementation of an embedded monitoring an
 The prototype combines embedded programming, modular hardware integration, real-time monitoring, and intelligent alarm management. Temperature and distance measurements are processed by an **Arduino UNO R4**, which controls visual and acoustic warning devices whenever predefined safety thresholds are exceeded.
 
 <p align="center">
-<img src="screenshots/montaje-completo.png" width="350">
+<img src="screenshots/montaje-completo.png" width="300">
 </p>
 
-The project demonstrates the development of a scalable embedded system suitable for monitoring and IoT-oriented applications.
+The project demonstrates the development of a scalable embedded platform suitable for embedded monitoring and IoT-oriented applications.
 
 ---
 
@@ -44,7 +44,7 @@ The project demonstrates the development of a scalable embedded system suitable 
 - Adjustable operating parameters through a rotary knob
 - Modular I²C daisy-chain architecture
 - Embedded firmware developed in C++
-- Real-time monitoring loop with low latency
+- Low-latency real-time monitoring loop
 - Easily extensible hardware platform
 
 ---
@@ -83,11 +83,9 @@ The prototype integrates several Modulino devices connected through a shared com
 
 The embedded system follows a centralized **master–slave architecture** in which the Arduino UNO R4 periodically acquires sensor measurements, processes environmental conditions, and controls every actuator connected to the I²C bus.
 
-This modular approach minimizes wiring, simplifies maintenance, and allows new peripherals to be incorporated without redesigning the hardware architecture.
+This modular approach minimizes wiring complexity, simplifies maintenance, and allows additional peripherals to be incorporated without redesigning the hardware architecture.
 
-<p align="center">
-<img src="screenshots/arquitectura-fisica.png" width="350">
-</p>
+The complete hardware organization is illustrated in the **Project Highlights** section below.
 
 ---
 
@@ -125,8 +123,8 @@ Detailed technical documentation is available inside the **docs** directory.
 |----------|-------------|
 | **01 - Project Overview** | Project objectives, hardware platform, software environment, and system requirements |
 | **02 - System Architecture** | Master–slave architecture, I²C communication bus, and hardware design |
-| **03 - Hardware and Implementation** | Components, assembly process, hardware connections, and firmware implementation |
-| **04 - Testing and Results** | Software execution, experimental validation, system performance, and conclusions |
+| **03 - Hardware and Implementation** | Hardware components, assembly process, firmware implementation, and system integration |
+| **04 - Testing and Results** | Software execution, experimental validation, system performance, and final conclusions |
 
 ---
 
@@ -134,10 +132,10 @@ Detailed technical documentation is available inside the **docs** directory.
 
 ## Embedded Monitoring System
 
-Complete physical implementation of the monitoring platform based on the Arduino UNO R4 and Modulino ecosystem.
+Complete physical implementation of the monitoring platform based on the Arduino UNO R4 and the Modulino ecosystem.
 
 <p align="center">
-<img src="screenshots/montaje-completo.png" width="350">
+<img src="screenshots/montaje-completo.png" width="300">
 </p>
 
 ---
@@ -147,7 +145,7 @@ Complete physical implementation of the monitoring platform based on the Arduino
 Master–slave organization of the embedded platform using a shared I²C communication bus.
 
 <p align="center">
-<img src="screenshots/arquitectura-fisica.png" width="350">
+<img src="screenshots/arquitectura-fisica.png" width="300">
 </p>
 
 ---
@@ -157,7 +155,7 @@ Master–slave organization of the embedded platform using a shared I²C communi
 Shared SDA and SCL lines allow every peripheral to communicate with the Arduino UNO R4 while minimizing wiring complexity.
 
 <p align="center">
-<img src="screenshots/esquema-bus-i2c.png" width="350">
+<img src="screenshots/esquema-bus-i2c.png" width="300">
 </p>
 
 ---
@@ -166,7 +164,7 @@ Shared SDA and SCL lines allow every peripheral to communicate with the Arduino 
 
 This project provided practical experience in several areas of embedded systems engineering, including:
 
-- Embedded programming using C++
+- Embedded programming in C++
 - Arduino UNO R4 development
 - Modular hardware design
 - I²C communication
@@ -184,9 +182,9 @@ This project provided practical experience in several areas of embedded systems 
 This repository includes:
 
 - Complete embedded firmware written in C++
-- Engineering documentation
+- Technical engineering documentation
 - Hardware architecture diagrams
-- Assembly photographs
+- Physical assembly photographs
 - I²C communication schematics
 - Supporting project images
 
